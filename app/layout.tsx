@@ -7,9 +7,9 @@ import './globals.css';
 const open_sans = Open_Sans({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Processtodata.ai - Superintelligence to your operations workflows',
+  title: 'Prodata - Superintelligence to your operations workflows',
   description:
-    "Processtodata.ai's landing page created by Nithin and Ian",
+    "Prodata.ai's landing page created by Nithin and Ian",
 };
 
 export default function RootLayout({

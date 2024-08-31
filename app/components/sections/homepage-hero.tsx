@@ -17,7 +17,7 @@ export const HomePageHero = () => {
       </Button>
       <div className='px-6 md:px-8'>
         <HeroTitle className='translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]'>
-          Processtodata.ai is a smarter way <br className='hidden md:block' /> to power your
+          Prodata.ai is a smarter way <br className='hidden md:block' /> to power your
           operations
         </HeroTitle>
         <HeroSubtitle className='translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]'>
