@@ -2,6 +2,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { Open_Sans } from 'next/font/google';
 import { Footer } from './components/footer';
 import { Header } from './components/header';
+import { GoogleTagManager } from '@next/third-parties/google'
 import './globals.css';
 
 const open_sans = Open_Sans({ subsets: ['latin'] });
@@ -34,6 +35,7 @@ export default function RootLayout({
           <Footer />
         </div>
         <Analytics />
+        <GoogleTagManager gtmId='GTM-5KB39WTZ' />
       </body>
     </html>
   );
