@@ -76,10 +76,7 @@ export const Header = () => {
         </div>
 
         <div className='ml-auto flex h-full items-center'>
-          <Link href='#' className='mr-6 text-sm'>
-            Log in
-          </Link>
-          <Button href='#'>Sign Up</Button>
+          
         </div>
 
         <button
