@@ -32,17 +32,19 @@ export const HomePageHero = () => {
         size='large'
         className='translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:800ms]'
       >
-        Try our AI tool to chat with your excel data for $0 for 14 days (No credit card required) <ChevronRight className='ml-2' />
+        Try our AI tool to chat with your excel data for $0 (No signup required) <ChevronRight className='ml-2' />
       </Button>
-      <Button
-        className='translate-y-[-1rem] animate-fade-in opacity-0'
-        href='https://forms.gle/3LaUgASqx8S1dh62A'
-        variant='secondary'
-        size='small'
-      >
-        Request Quote
-        <ButtonHighlight className='-mr-2 ml-2'>→</ButtonHighlight>
-      </Button>
+      <div>
+        <Button
+          className='translate-y-[-1rem] animate-fade-in opacity-0'
+          href='https://forms.gle/3LaUgASqx8S1dh62A'
+          variant='secondary'
+          size='small'
+        >
+          Request Quote
+          <ButtonHighlight className='-mr-2 ml-2'>→</ButtonHighlight>
+        </Button>
+      </div>
       <HeroImage />
     </Hero>
   );
