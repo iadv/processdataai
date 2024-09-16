@@ -8,15 +8,10 @@ import { TwitterIcon } from './icons/twitter';
 export const Footer = () => {
   const footerLinks = [
     {
-      title: '',
+      title: 'Resources',
       links: [
-        { title: '', href: '#' },
-        { title: '', href: '#' },
-        { title: '', href: '#' },
-        { title: '', href: '#' },
-        { title: '', href: '#' },
-        { title: '', href: '#' },
-        { title: '', href: '#' },
+        { title: 'Terms of Service', href: 'https://drive.google.com/file/d/1mYQakAvRrWRe2EFvF6Kw1Jz6TqEH62Wj/view?usp=sharing' },
+        { title: 'Privacy Terms', href: 'https://drive.google.com/file/d/1ohwYU_iNK0k08wPGXvx_zR9LzRThBETh/view?usp=sharing' },
       ],
     },
     {
