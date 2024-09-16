@@ -34,6 +34,11 @@ export const HomePageHero = () => {
       >
         Try our AI tool to chat with your excel data for $0 (No signup required) <ChevronRight className='ml-2' />
       </Button>
+      <div className='px-6 md:px-8'>
+        <HeroTitle className='translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]'>
+          
+        </HeroTitle>
+      </div>
       <div>
         <Button
           className='translate-y-[-1rem] animate-fade-in opacity-0'
