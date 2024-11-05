@@ -27,7 +27,7 @@ export const HomePageHero = () => {
         </HeroSubtitle>
       </div>
       <Button
-        href='https://datatoprocessinsights.streamlit.app/' 
+        href='https://datatoinsights.streamlit.app/' 
         variant='primary'
         size='large'
         className='translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:800ms]'
